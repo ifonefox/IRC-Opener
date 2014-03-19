@@ -11,5 +11,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSPopUpButton *AppName;
+@property (weak) IBOutlet NSTextField *ircProgram;
 
 @end

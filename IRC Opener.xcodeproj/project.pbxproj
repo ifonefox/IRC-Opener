@@ -18,7 +18,7 @@
 		670E806118DA2D0300D1DEF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670E804018DA2D0300D1DEF2 /* Cocoa.framework */; };
 		670E806918DA2D0300D1DEF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 670E806718DA2D0300D1DEF2 /* InfoPlist.strings */; };
 		670E806B18DA2D0300D1DEF2 /* IRC_OpenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E806A18DA2D0300D1DEF2 /* IRC_OpenerTests.m */; };
-		670E807A18DA3A4900D1DEF2 /* iterm.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 670E807918DA3A4900D1DEF2 /* iterm.applescript */; };
+		670E807B18DA3EB000D1DEF2 /* iterm.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 670E807918DA3A4900D1DEF2 /* iterm.applescript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670E807B18DA3EB000D1DEF2 /* iterm.applescript in Resources */,
 				670E804B18DA2D0300D1DEF2 /* InfoPlist.strings in Resources */,
 				670E805918DA2D0300D1DEF2 /* Images.xcassets in Resources */,
 				670E805118DA2D0300D1DEF2 /* Credits.rtf in Resources */,
@@ -264,7 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				670E805418DA2D0300D1DEF2 /* AppDelegate.m in Sources */,
-				670E807A18DA3A4900D1DEF2 /* iterm.applescript in Sources */,
 				670E804D18DA2D0300D1DEF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
