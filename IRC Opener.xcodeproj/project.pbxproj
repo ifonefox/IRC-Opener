@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670E804118DA2D0300D1DEF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670E804018DA2D0300D1DEF2 /* Cocoa.framework */; };
+		670E804B18DA2D0300D1DEF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 670E804918DA2D0300D1DEF2 /* InfoPlist.strings */; };
+		670E804D18DA2D0300D1DEF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E804C18DA2D0300D1DEF2 /* main.m */; };
+		670E805118DA2D0300D1DEF2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 670E804F18DA2D0300D1DEF2 /* Credits.rtf */; };
+		670E805418DA2D0300D1DEF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E805318DA2D0300D1DEF2 /* AppDelegate.m */; };
+		670E805718DA2D0300D1DEF2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 670E805518DA2D0300D1DEF2 /* MainMenu.xib */; };
+		670E805918DA2D0300D1DEF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670E805818DA2D0300D1DEF2 /* Images.xcassets */; };
+		670E806018DA2D0300D1DEF2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670E805F18DA2D0300D1DEF2 /* XCTest.framework */; };
+		670E806118DA2D0300D1DEF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670E804018DA2D0300D1DEF2 /* Cocoa.framework */; };
+		670E806918DA2D0300D1DEF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 670E806718DA2D0300D1DEF2 /* InfoPlist.strings */; };
+		670E806B18DA2D0300D1DEF2 /* IRC_OpenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E806A18DA2D0300D1DEF2 /* IRC_OpenerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670E806218DA2D0300D1DEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670E803518DA2D0300D1DEF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670E803C18DA2D0300D1DEF2;
+			remoteInfo = "IRC Opener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		670E803D18DA2D0300D1DEF2 /* IRC Opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRC Opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670E804018DA2D0300D1DEF2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		670E804318DA2D0300D1DEF2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		670E804418DA2D0300D1DEF2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		670E804518DA2D0300D1DEF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		670E804818DA2D0300D1DEF2 /* IRC Opener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRC Opener-Info.plist"; sourceTree = "<group>"; };
+		670E804A18DA2D0300D1DEF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		670E804C18DA2D0300D1DEF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		670E804E18DA2D0300D1DEF2 /* IRC Opener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRC Opener-Prefix.pch"; sourceTree = "<group>"; };
+		670E805018DA2D0300D1DEF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		670E805218DA2D0300D1DEF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		670E805318DA2D0300D1DEF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		670E805618DA2D0300D1DEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		670E805818DA2D0300D1DEF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		670E805E18DA2D0300D1DEF2 /* IRC OpenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IRC OpenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670E805F18DA2D0300D1DEF2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		670E806618DA2D0300D1DEF2 /* IRC OpenerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRC OpenerTests-Info.plist"; sourceTree = "<group>"; };
+		670E806818DA2D0300D1DEF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		670E806A18DA2D0300D1DEF2 /* IRC_OpenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRC_OpenerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670E803A18DA2D0300D1DEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E804118DA2D0300D1DEF2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E805B18DA2D0300D1DEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E806118DA2D0300D1DEF2 /* Cocoa.framework in Frameworks */,
+				670E806018DA2D0300D1DEF2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670E803418DA2D0300D1DEF2 = {
+			isa = PBXGroup;
+			children = (
+				670E804618DA2D0300D1DEF2 /* IRC Opener */,
+				670E806418DA2D0300D1DEF2 /* IRC OpenerTests */,
+				670E803F18DA2D0300D1DEF2 /* Frameworks */,
+				670E803E18DA2D0300D1DEF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		670E803E18DA2D0300D1DEF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670E803D18DA2D0300D1DEF2 /* IRC Opener.app */,
+				670E805E18DA2D0300D1DEF2 /* IRC OpenerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670E803F18DA2D0300D1DEF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670E804018DA2D0300D1DEF2 /* Cocoa.framework */,
+				670E805F18DA2D0300D1DEF2 /* XCTest.framework */,
+				670E804218DA2D0300D1DEF2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670E804218DA2D0300D1DEF2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670E804318DA2D0300D1DEF2 /* AppKit.framework */,
+				670E804418DA2D0300D1DEF2 /* CoreData.framework */,
+				670E804518DA2D0300D1DEF2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		670E804618DA2D0300D1DEF2 /* IRC Opener */ = {
+			isa = PBXGroup;
+			children = (
+				670E805218DA2D0300D1DEF2 /* AppDelegate.h */,
+				670E805318DA2D0300D1DEF2 /* AppDelegate.m */,
+				670E805518DA2D0300D1DEF2 /* MainMenu.xib */,
+				670E805818DA2D0300D1DEF2 /* Images.xcassets */,
+				670E804718DA2D0300D1DEF2 /* Supporting Files */,
+			);
+			path = "IRC Opener";
+			sourceTree = "<group>";
+		};
+		670E804718DA2D0300D1DEF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				670E804818DA2D0300D1DEF2 /* IRC Opener-Info.plist */,
+				670E804918DA2D0300D1DEF2 /* InfoPlist.strings */,
+				670E804C18DA2D0300D1DEF2 /* main.m */,
+				670E804E18DA2D0300D1DEF2 /* IRC Opener-Prefix.pch */,
+				670E804F18DA2D0300D1DEF2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		670E806418DA2D0300D1DEF2 /* IRC OpenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				670E806A18DA2D0300D1DEF2 /* IRC_OpenerTests.m */,
+				670E806518DA2D0300D1DEF2 /* Supporting Files */,
+			);
+			path = "IRC OpenerTests";
+			sourceTree = "<group>";
+		};
+		670E806518DA2D0300D1DEF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				670E806618DA2D0300D1DEF2 /* IRC OpenerTests-Info.plist */,
+				670E806718DA2D0300D1DEF2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670E803C18DA2D0300D1DEF2 /* IRC Opener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670E806E18DA2D0300D1DEF2 /* Build configuration list for PBXNativeTarget "IRC Opener" */;
+			buildPhases = (
+				670E803918DA2D0300D1DEF2 /* Sources */,
+				670E803A18DA2D0300D1DEF2 /* Frameworks */,
+				670E803B18DA2D0300D1DEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IRC Opener";
+			productName = "IRC Opener";
+			productReference = 670E803D18DA2D0300D1DEF2 /* IRC Opener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670E805D18DA2D0300D1DEF2 /* IRC OpenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670E807118DA2D0300D1DEF2 /* Build configuration list for PBXNativeTarget "IRC OpenerTests" */;
+			buildPhases = (
+				670E805A18DA2D0300D1DEF2 /* Sources */,
+				670E805B18DA2D0300D1DEF2 /* Frameworks */,
+				670E805C18DA2D0300D1DEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670E806318DA2D0300D1DEF2 /* PBXTargetDependency */,
+			);
+			name = "IRC OpenerTests";
+			productName = "IRC OpenerTests";
+			productReference = 670E805E18DA2D0300D1DEF2 /* IRC OpenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670E803518DA2D0300D1DEF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sean Brody";
+				TargetAttributes = {
+					670E805D18DA2D0300D1DEF2 = {
+						TestTargetID = 670E803C18DA2D0300D1DEF2;
+					};
+				};
+			};
+			buildConfigurationList = 670E803818DA2D0300D1DEF2 /* Build configuration list for PBXProject "IRC Opener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670E803418DA2D0300D1DEF2;
+			productRefGroup = 670E803E18DA2D0300D1DEF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670E803C18DA2D0300D1DEF2 /* IRC Opener */,
+				670E805D18DA2D0300D1DEF2 /* IRC OpenerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670E803B18DA2D0300D1DEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E804B18DA2D0300D1DEF2 /* InfoPlist.strings in Resources */,
+				670E805918DA2D0300D1DEF2 /* Images.xcassets in Resources */,
+				670E805118DA2D0300D1DEF2 /* Credits.rtf in Resources */,
+				670E805718DA2D0300D1DEF2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E805C18DA2D0300D1DEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E806918DA2D0300D1DEF2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670E803918DA2D0300D1DEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E805418DA2D0300D1DEF2 /* AppDelegate.m in Sources */,
+				670E804D18DA2D0300D1DEF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E805A18DA2D0300D1DEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E806B18DA2D0300D1DEF2 /* IRC_OpenerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670E806318DA2D0300D1DEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670E803C18DA2D0300D1DEF2 /* IRC Opener */;
+			targetProxy = 670E806218DA2D0300D1DEF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		670E804918DA2D0300D1DEF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670E804A18DA2D0300D1DEF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		670E804F18DA2D0300D1DEF2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670E805018DA2D0300D1DEF2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		670E805518DA2D0300D1DEF2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670E805618DA2D0300D1DEF2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		670E806718DA2D0300D1DEF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670E806818DA2D0300D1DEF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670E806C18DA2D0300D1DEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		670E806D18DA2D0300D1DEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		670E806F18DA2D0300D1DEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRC Opener/IRC Opener-Prefix.pch";
+				INFOPLIST_FILE = "IRC Opener/IRC Opener-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		670E807018DA2D0300D1DEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRC Opener/IRC Opener-Prefix.pch";
+				INFOPLIST_FILE = "IRC Opener/IRC Opener-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		670E807218DA2D0300D1DEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IRC Opener.app/Contents/MacOS/IRC Opener";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRC Opener/IRC Opener-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IRC OpenerTests/IRC OpenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		670E807318DA2D0300D1DEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IRC Opener.app/Contents/MacOS/IRC Opener";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRC Opener/IRC Opener-Prefix.pch";
+				INFOPLIST_FILE = "IRC OpenerTests/IRC OpenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670E803818DA2D0300D1DEF2 /* Build configuration list for PBXProject "IRC Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670E806C18DA2D0300D1DEF2 /* Debug */,
+				670E806D18DA2D0300D1DEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670E806E18DA2D0300D1DEF2 /* Build configuration list for PBXNativeTarget "IRC Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670E806F18DA2D0300D1DEF2 /* Debug */,
+				670E807018DA2D0300D1DEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		670E807118DA2D0300D1DEF2 /* Build configuration list for PBXNativeTarget "IRC OpenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670E807218DA2D0300D1DEF2 /* Debug */,
+				670E807318DA2D0300D1DEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670E803518DA2D0300D1DEF2 /* Project object */;
+}
