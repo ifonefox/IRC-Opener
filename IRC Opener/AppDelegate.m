@@ -53,6 +53,7 @@
     [userDefaults setObject:[[self.AppName selectedItem] title] forKey:@"appName"];
     [userDefaults setObject:[self.ircProgram stringValue] forKey:@"command"];
     [userDefaults synchronize];
+    [[NSApplication sharedApplication] terminate:nil];
 }
 
 @end
