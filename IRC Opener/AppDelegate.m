@@ -14,9 +14,13 @@
     
     }
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification{
+    NSButton *close = [self.window standardWindowButton:NSWindowCloseButton];
+    [close setTarget:self];
+    [close setAction:@selector(quit)];
     
-    
-    
+}
+- (void)quit{
+    [[NSApplication sharedApplication] terminate:nil];
 }
 - (void)awakeFromNib{
     [NSApp setActivationPolicy:NSApplicationActivationPolicyRegular];
