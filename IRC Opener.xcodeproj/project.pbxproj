@@ -19,6 +19,8 @@
 		670E806918DA2D0300D1DEF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 670E806718DA2D0300D1DEF2 /* InfoPlist.strings */; };
 		670E806B18DA2D0300D1DEF2 /* IRC_OpenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E806A18DA2D0300D1DEF2 /* IRC_OpenerTests.m */; };
 		670E807B18DA3EB000D1DEF2 /* iterm.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 670E807918DA3A4900D1DEF2 /* iterm.applescript */; };
+		670FD8C318DB58E20026A284 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 670FD8C218DB58E20026A284 /* LICENSE */; };
+		670FD8C518DB59130026A284 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 670FD8C418DB59130026A284 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		670E806818DA2D0300D1DEF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		670E806A18DA2D0300D1DEF2 /* IRC_OpenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRC_OpenerTests.m; sourceTree = "<group>"; };
 		670E807918DA3A4900D1DEF2 /* iterm.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = iterm.applescript; sourceTree = "<group>"; };
+		670FD8C218DB58E20026A284 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		670FD8C418DB59130026A284 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		670E803418DA2D0300D1DEF2 = {
 			isa = PBXGroup;
 			children = (
+				670FD8C418DB59130026A284 /* .gitignore */,
+				670FD8C218DB58E20026A284 /* LICENSE */,
 				670E804618DA2D0300D1DEF2 /* IRC Opener */,
 				670E806418DA2D0300D1DEF2 /* IRC OpenerTests */,
 				670E803F18DA2D0300D1DEF2 /* Frameworks */,
@@ -241,6 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670FD8C318DB58E20026A284 /* LICENSE in Resources */,
+				670FD8C518DB59130026A284 /* .gitignore in Resources */,
 				670E807B18DA3EB000D1DEF2 /* iterm.applescript in Resources */,
 				670E804B18DA2D0300D1DEF2 /* InfoPlist.strings in Resources */,
 				670E805918DA2D0300D1DEF2 /* Images.xcassets in Resources */,
@@ -478,6 +486,7 @@
 				670E807018DA2D0300D1DEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		670E807118DA2D0300D1DEF2 /* Build configuration list for PBXNativeTarget "IRC OpenerTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +495,7 @@
 				670E807318DA2D0300D1DEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
