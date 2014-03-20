@@ -15,6 +15,7 @@
             <connections>
                 <outlet property="AppName" destination="idf-rO-eLd" id="3pl-PT-dpt"/>
                 <outlet property="ircProgram" destination="7E5-cf-gfa" id="XAo-Pd-gaG"/>
+                <outlet property="saveButton" destination="9GZ-aS-bkt" id="5bb-y0-0hF"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>

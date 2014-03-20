@@ -13,5 +13,6 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSPopUpButton *AppName;
 @property (weak) IBOutlet NSTextField *ircProgram;
-
+@property (weak) IBOutlet NSButton *saveButton;
+@property (nonatomic, copy) NSString *urlevent;
 @end
